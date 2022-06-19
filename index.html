@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jugando con DOM</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <label for="inputColor" class="form__label">Color Picker</label>
+        <input type="color" class="form__control" id="inputColor" value="#563d7c" title="Choose your color" />
+        <div class="btn__container">
+            <button class="btn btn__primary" id="btnVisualizar">Visualizar</button>
+            <p class="lead" id="parrafoExa">#563d7c</p>
+        </div>
+        <div class="card" id="cardColor"></div>
+    </div>
+
+    <script src="javascript/app.js"></script>
+</body>
+
+</html>
