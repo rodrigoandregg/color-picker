@@ -10,6 +10,7 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
+    font-family: sans-serif;
 }
 
 .container,
@@ -17,14 +18,13 @@ body {
     width: 320px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 20px;
     text-align: center;
 }
 
 .form__label {
-    font-size: 25px;
+    font-size: 1.8rem;
     color: #777;
-    font-family: sans-serif;
 
 }
 
@@ -44,14 +44,18 @@ body {
     color: #fff;
     font-size: 1.3rem;
     letter-spacing: 1px;
-    font-family: sans-serif;
     border: none;
     border-radius: 10px;
     box-shadow: 0 3px 10px #777;
 }
 
+.btn__primary:hover {
+    box-shadow: 0 3px 8px #777;
+    background-color: rgb(42, 152, 255);
+}
+
 .lead {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #777;
 }
 
